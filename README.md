@@ -1,13 +1,24 @@
 # GAMMA
-A graph pattern mining framework for large graphs on gpu. This is the source code of "GAMMA: A Graph Pattern Mining Framework for Large Graphs on GPU" (ICDE 2023).
+A graph pattern mining framework for large graphs on gpu. This is the source code of "GAMMA: A Graph Pattern Mining Framework for Large Graphs on GPU" (ICDE 2023), by Lin Hu, Prof. Lei Zou, Prof. Tamer Ozsu.
 
+Please cite our paper, if you use our source code.
+//TO BE UPDATED
+```
+@inproceedings{
+  title={GAMMA: A Graph Pattern Mining Framework for Large Graphs on GPU},
+  author={Lin Hu, Lei Zou, Tamer Ozsu},
+  booktitle={2023 IEEE 39th International Conference on Data Engineering (ICDE)},
+  pages={},
+  year={2023},
+  organization={IEEE}
+}
+```
 ABSTRACT
 
 Graph pattern mining (GPM) is getting increasingly important recently. There are many parallel frameworks for GPM, many of which suffer from performance. GPU is a power- ful option for graph processing, which has excellent potential for performance improvement; however, parallel GPM algorithms produce a large number of intermediate results, limiting GPM implementations on GPU.
 
 In this paper, we present GAMMA, an out-of-core GPM framework on GPU, and it makes full use of host memory to process large graphs. Specifically, GAMMA adopts a self- adaptive implicit host memory access manner to achieve high bandwidth, which is transparent to users. GAMMA provides flexible and effective interfaces for users to build their algorithms. We also propose several optimizations over primitives provided by GAMMA in the out-of-core GPU system. Experimental results show that GAMMA has scalability advantages in graph size over the state-of-the-art by an order of magnitude, and is also faster than existing GPM systems and some dedicated GPU algorithms of specific graph mining problems.
 
-Please cite our paper, if you use our source code.
 
 REQUIREMENTS
 
