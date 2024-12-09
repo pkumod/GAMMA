@@ -2,13 +2,12 @@
 A graph pattern mining framework for large graphs on gpu. This is the source code of "GAMMA: A Graph Pattern Mining Framework for Large Graphs on GPU" (ICDE 2023), by Lin Hu, Prof. Lei Zou, Prof. Tamer Ozsu.
 
 Please cite our paper, if you use our source code.
-//TO BE UPDATED
 ```
 @inproceedings{
   title={GAMMA: A Graph Pattern Mining Framework for Large Graphs on GPU},
   author={Lin Hu, Lei Zou, Tamer Ozsu},
   booktitle={2023 IEEE 39th International Conference on Data Engineering (ICDE)},
-  pages={},
+  pages={273--286},
   year={2023},
   organization={IEEE}
 }
